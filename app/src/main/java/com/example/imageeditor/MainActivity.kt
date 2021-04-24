@@ -29,14 +29,16 @@ class MainActivity : AppCompatActivity() {
 
     var bitmapp: Bitmap? = null
     var resultUri: Uri? = null
+    var test: Uri? = null
 
 
+    //rohitroxx004
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //permission
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
             ) {
