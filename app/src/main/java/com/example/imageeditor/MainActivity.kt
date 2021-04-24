@@ -29,10 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     var bitmapp: Bitmap? = null
     var resultUri: Uri? = null
-    var test: Uri? = null
 
-
-    //rohitroxx004
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
